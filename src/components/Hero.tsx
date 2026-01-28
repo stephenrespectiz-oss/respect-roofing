@@ -88,7 +88,7 @@ export function Hero() {
                         >
                             <motion.div 
                                 whileHover={{ y: -2 }}
-                                className="w-full sm:w-auto"
+                                className="w-full sm:w-auto cursor-pointer"
                             >
                                 <Button 
                                     size="lg"
@@ -107,7 +107,8 @@ export function Hero() {
                                     rel="noopener noreferrer"
                                     whileHover={{ scale: 1.1, y: -2 }}
                                     whileTap={{ scale: 0.95 }}
-                                    className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center text-white transition-all duration-300"
+                                    transition={{ duration: 0.5, ease: "easeOut" }}
+                                    className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center text-white transition-all duration-500 cursor-pointer"
                                     style={{
                                         background: 'linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)',
                                         boxShadow: '0 4px 15px rgba(225, 48, 108, 0.3)'
@@ -122,7 +123,8 @@ export function Hero() {
                                     rel="noopener noreferrer"
                                     whileHover={{ scale: 1.1, y: -2 }}
                                     whileTap={{ scale: 0.95 }}
-                                    className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center text-white transition-all duration-300"
+                                    transition={{ duration: 0.5, ease: "easeOut" }}
+                                    className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center text-white transition-all duration-500 cursor-pointer"
                                     style={{
                                         background: '#000000',
                                         boxShadow: '0 4px 15px rgba(0, 0, 0, 0.3)'

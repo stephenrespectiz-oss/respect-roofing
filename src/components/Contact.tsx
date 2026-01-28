@@ -75,7 +75,7 @@ export function Contact() {
                                 onClick={() => handlePhoneClick('0960606161', '096 060 61 61')}
                                 whileHover={{ scale: 1.02 }}
                                 whileTap={{ scale: 0.98 }}
-                                className="w-full text-left group"
+                                className="w-full text-left group cursor-pointer"
                             >
                                 <a 
                                     href="tel:0960606161"
@@ -89,7 +89,7 @@ export function Contact() {
                                 onClick={() => handlePhoneClick('0977550555', '097 755 05 55')}
                                 whileHover={{ scale: 1.02 }}
                                 whileTap={{ scale: 0.98 }}
-                                className="w-full text-left group"
+                                className="w-full text-left group cursor-pointer"
                             >
                                 <a 
                                     href="tel:0977550555"
@@ -165,7 +165,8 @@ export function Contact() {
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.15, y: -3 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl flex items-center justify-center text-white transition-all duration-300"
+                                transition={{ duration: 0.5, ease: "easeOut" }}
+                                className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl flex items-center justify-center text-white transition-all duration-500 cursor-pointer"
                                 style={{
                                     background: 'linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)',
                                     boxShadow: '0 4px 15px rgba(225, 48, 108, 0.4)'
@@ -180,7 +181,8 @@ export function Contact() {
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.15, y: -3 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl flex items-center justify-center text-white transition-all duration-300"
+                                transition={{ duration: 0.5, ease: "easeOut" }}
+                                className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl flex items-center justify-center text-white transition-all duration-500 cursor-pointer"
                                 style={{
                                     background: '#000000',
                                     boxShadow: '0 4px 15px rgba(0, 0, 0, 0.4)'
