@@ -9,7 +9,7 @@ import { resolve } from 'path'
 const projectRoot = process.env.PROJECT_ROOT || import.meta.dirname
 
 export default defineConfig({
-  base: "/respect-roofing-mate/",
+  base: "/respect-roofing/",
   plugins: [
     react(),
     tailwindcss(),
